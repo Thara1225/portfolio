@@ -30,6 +30,20 @@ const projects: Project[] = [
     gallery: ['/poto/rdm1.png', '/poto/rdm2.png', '/poto/rdm3.png', '/poto/rdm4.png', '/poto/rdm5.png'],
     demo: '#',
   },
+
+  {
+  title: 'Cinnamon Skin Care',
+  description: 'A PHP and MySQL skincare storefront where customers can browse products, create an account, manage a shopping cart, and place orders. Includes an admin area for managing products and users, plus a customer contact form.',
+  tags: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'E-commerce'],
+  image: '/poto/c1.png',
+  gallery: [
+    '/poto/c1.png',
+    '/poto/c2.png',
+    '/poto/c3.png',
+  ],
+  demo: '#',
+},
+
   {
     title: 'Cinnamon Skin Care',
     description: ' Secure & adaptable payment solutions (COD, PayPal, Stripe, etc.) , Mobile optimization & PWA functionality for seamless shopping , Potential for multi-vendor marketplace setup , AI-powered recommendations & personalized user experiences',
