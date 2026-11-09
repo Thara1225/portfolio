@@ -13,8 +13,8 @@ type Project = {
 };
 
 const projects: Project[] = [
-   {
-    title: 'RDM Admin Inventory & Payroll System',
+  {
+    title: 'Weather Analytics Dashboard',
     description: 'A full-stack business management platform built with React, Node.js, Express, Prisma, and PostgreSQL. The system manages inventory, suppliers, materials, products, purchases, shop orders, stock movements, employee payments, and operational reports. Key features include JWT authentication, automated stock tracking, monthly employee payment management, employee-wise payroll summaries, interactive analytics, and Excel/PDF report generation. The application was deployed using Vercel and Render.',
     tags: ['React', 'Node.js', 'PostgreSQL', 'JWT', 'Prisma', 'Express', 'Visual Studio Code', 'Git'],
     image: '/poto/w1.png',
@@ -24,7 +24,7 @@ const projects: Project[] = [
   },
 
   {
-    title: 'Weather Analytics Dashboard',
+    title: 'RDM Admin Inventory & Payroll System',
     description: 'A full-stack web application that retrieves current weather for multiple cities, calculates a comfort score from temperature, humidity, and wind, and presents the results in an interactive dashboard.',
     tags: ['React', 'Node.js', 'Auth0','Jest', 'Express', 'Visual Studio Code', 'Git'],
     image: '/poto/rdm1.png',
