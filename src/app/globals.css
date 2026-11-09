@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Custom Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out forwards;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-slide-in-left {
+  animation: slide-in-left 0.8s ease-out forwards;
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.8s ease-out forwards;
+}
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  70% {
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-pop {
+  animation: pop-in 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+/* Light Mode Styles */
+html.light-mode {
+  color-scheme: light;
+}
+
+html.light-mode body {
+  background-color: white;
+  color: rgb(15, 23, 42);
+}
+
+html.light-mode section {
+  background-color: rgb(249, 250, 251);
+}
+
+html.light-mode #about {
+  background: linear-gradient(to bottom right, rgb(243, 244, 246), rgb(229, 231, 235)) !important;
+}
+
+html.light-mode #skills {
+  background-color: rgb(243, 244, 246) !important;
+}
+
+html.light-mode #projects {
+  background-color: rgb(249, 250, 251) !important;
+}
+
+html.light-mode #contact {
+  background-color: rgb(243, 244, 246) !important;
+}
+
+html.light-mode h1,
+html.light-mode h2,
+html.light-mode h3,
+html.light-mode h4 {
+  color: rgb(15, 23, 42);
+}
+
+html.light-mode p {
+  color: rgb(55, 65, 81);
+}
+
+html.light-mode .text-gray-300 {
+  color: rgb(55, 65, 81);
+}
+
+html.light-mode .text-gray-400 {
+  color: rgb(107, 114, 128);
+}
+
+html.light-mode .text-gray-600 {
+  color: rgb(75, 85, 99);
+}
+
+html.light-mode .bg-slate-900,
+html.light-mode .bg-slate-800,
+html.light-mode .bg-slate-700 {
+  background-color: rgb(229, 231, 235);
+}
+
+html.light-mode .border-slate-700,
+html.light-mode .border-slate-600 {
+  border-color: rgb(209, 213, 219);
+}
+
+html.light-mode input,
+html.light-mode textarea {
+  background-color: rgb(243, 244, 246);
+  border-color: rgb(209, 213, 219);
+  color: rgb(15, 23, 42);
+}
+
+html.light-mode .bg-blue-500\/20 {
+  background-color: rgb(219, 234, 254);
+}
+
+html.light-mode .text-blue-400 {
+  color: rgb(96, 165, 250);
+}
