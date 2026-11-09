@@ -10,7 +10,7 @@ export default function About() {
           <div className="md:w-1/3 flex justify-center animate-slide-in-left">
             <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-slate-700 hover:border-blue-500 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/50">
               <img
-                src="/poto/cvpoto.jpg"
+                src="/poto/cvpoto.jpeg"
                 alt="Your Photo"
                 className="w-full h-full object-cover"
                 onError={(e) => {
@@ -48,7 +48,7 @@ export default function About() {
 
               <div className="space-y-4">
                 <div className="p-4 bg-slate-800/50 rounded-lg border border-slate-700 hover:border-blue-500 transition-all duration-300 hover:transform hover:translate-x-2">
-                  <h4 className="font-medium text-white">B.Sc.(Hons) in Software Engineering</h4>
+                  <h4 className="font-medium text-white">B.Sc.(Hons) in Cybersecurity</h4>
                   <p className="text-gray-400">University of Bedfordshire - SLIIT</p>
                 </div>
 

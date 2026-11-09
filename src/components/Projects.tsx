@@ -19,6 +19,7 @@ const projects: Project[] = [
     tags: ['React', 'Node.js', 'PostgreSQL', 'JWT', 'Prisma', 'Express', 'Visual Studio Code', 'Git'],
     image: '/poto/w1.png',
     gallery: ['/poto/w1.png', '/poto/w2.png', '/poto/w3.png', '/poto/w4.png'],
+    github: 'https://github.com/Thara1225/RDM.git',
     demo: '#',
   },
 
@@ -28,6 +29,7 @@ const projects: Project[] = [
     tags: ['React', 'Node.js', 'Auth0','Jest', 'Express', 'Visual Studio Code', 'Git'],
     image: '/poto/rdm1.png',
     gallery: ['/poto/rdm1.png', '/poto/rdm2.png', '/poto/rdm3.png', '/poto/rdm4.png', '/poto/rdm5.png'],
+    github: 'https://github.com/Thara1225/weather-analytics-app.git',
     demo: '#',
   },
 
@@ -41,16 +43,11 @@ const projects: Project[] = [
     '/poto/c2.png',
     '/poto/c3.png',
   ],
+  github: 'https://github.com/Thara1225/skincare-website.git',
   demo: '#',
 },
 
-  {
-    title: 'Cinnamon Skin Care',
-    description: ' Secure & adaptable payment solutions (COD, PayPal, Stripe, etc.) , Mobile optimization & PWA functionality for seamless shopping , Potential for multi-vendor marketplace setup , AI-powered recommendations & personalized user experiences',
-    tags: ['HTML', 'MySQL', 'PHP', 'JavaScript','Ajax', 'WampServer'],
-    image: '/poto/skin.avif',
-    github: 'https://github.com/Thara1225/skincare-website.git',
-  },
+
   {
     title: 'Medicare Hospital Management System',
     description: 'Medicare Plus is a Java-based healthcare management system developed using Spring Boot. The application is designed to manage patient records, doctor information, appointments, and medical services efficiently. It follows a layered architecture using RESTful APIs and integrates with a MySQL database for secure data storage. The project demonstrates backend development skills, database integration, and deployment of a scalable web application using modern Java technologies.',
@@ -59,30 +56,8 @@ const projects: Project[] = [
     github: 'https://github.com/Thara1225/medicare_plus.git',
     demo: '#',
   },
-  {
-    title: 'PawGuess – Dog Breed Guessing Game',
-    description: 'PawGuess is an Android mobile game where users identify dog breeds by analyzing randomly loaded dog images. The app uses a REST API to fetch real-time dog images, calculates scores based on user guesses, and maintains a history of gameplay attempts. It features user login, a dynamic game engine, score tracking with a leaderboard, breed exploration, and a creative surprise feature — all built with clean UI and efficient API integration.',
-    tags: ['Java', 'XML', 'Android Studio', 'REST API'],
-    image: '/poto/dog.jpeg',
-    github: 'https://github.com/Thara1225/DogBreed.git',
-    demo: '#',
-  },
-   {
-    title: 'Simple Calculator App',
-    description: 'Designed and developed a user-friendly Calculator Application supporting basic arithmetic operations with clean UI and error handling. Implemented efficient logic, responsive design, and optimized performance following Android development best practices.',
-    tags: ['Java', 'XML', 'Android Studio', 'Git','Android Emulator','Gradle'],
-    image: '/poto/cal.avif',
-    github: 'https://github.com/Thara1225/Calculator-App.git',
-    demo: '#',
-  },
-  {
-    title: 'Bake House Management System',
-    description: 'Desserts Paradise is a full-stack web application designed to showcase and manage a dessert catalog with user authentication and role-based access. The system allows users to browse desserts, view details, and interact with the platform, while providing an admin interface to manage content securely. This project demonstrates my ability to build a structured web application using frontend and backend technologies, database integration, and basic authentication concepts.',
-    tags: ['HTML5', 'JavaScript', 'CSS3', 'MySQL','XAMPP','Visual Studio Code','Git',],
-    image: '/poto/food.png',
-    github: 'https://github.com/Thara1225/bake_House.git',
-    demo: '#',
-  },
+
+
 ];
 
 export default function Projects() {
